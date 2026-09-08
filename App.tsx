@@ -5,7 +5,7 @@ import {SafeAreaView, View, Text, TextInput, Pressable, FlatList, StyleSheet, Ac
 type Screen='login'|'home'|'ranking'|'profile'|'moveup'|'notifications';
 type User={nickname:string;rank:number;credits:number};
 type Row={rank:number;nickname:string};
-const API=process.env.EXPO_PUBLIC_API_URL||'http://localhost:8000/api/v1';
+const API='https://ewr.onrender.com/api/v1';
 
 async function api(path:string, init:RequestInit={}, token?:string){const r=await fetch(API+path,{...init,headers:{'Content-Type':'application/json',...(token?{Authorization:`Bearer ${token}`}:{}) ,...(init.headers||{})}}); if(!r.ok) throw new Error(`HTTP ${r.status}`); return r.json();}
 
