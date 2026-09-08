@@ -5,7 +5,17 @@
     "version": "4.1.0",
     "orientation": "portrait",
     "plugins": ["expo-iap"],
-    "ios": {"bundleIdentifier":"com.ewr.earthworldranking","deploymentTarget":"15.0"},
-    "android": {"package":"com.ewr.earthworldranking"}
+    "ios": {
+      "bundleIdentifier": "com.ewr.earthworldranking",
+      "deploymentTarget": "15.0"
+    },
+    "android": {
+      "package": "com.ewr.earthworldranking"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "82348d7c-4ef4-4be4-8f06-4e3565a81fdb"
+      }
+    }
   }
 }
