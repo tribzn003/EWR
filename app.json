@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "Earth World Ranking",
+    "slug": "earth-world-ranking",
+    "version": "4.1.0",
+    "orientation": "portrait",
+    "plugins": ["expo-iap"],
+    "ios": {"bundleIdentifier":"com.ewr.earthworldranking","deploymentTarget":"15.0"},
+    "android": {"package":"com.ewr.earthworldranking"}
+  }
+}
