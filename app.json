@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Earth World Ranking",
-    "slug": "earth-world-ranking",
+    "slug": "ewr",
     "version": "4.1.0",
     "orientation": "portrait",
     "plugins": ["expo-iap"],
